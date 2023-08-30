@@ -1,0 +1,87 @@
+header{
+
+}
+
+/* navigation */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-top: 2px solid #444;
+}
+
+header nav .nav-right a{
+    color: #444;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1.2em;
+}
+
+header nav .nav-left .register-login-btn{
+    border: 1px solid #444;
+    padding: 5px 8px;
+    right: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+}
+
+header nav .nav-left .register-login-btn a{
+    margin-right: 8px;
+    color: #444;
+    font-size: 1.1em;
+}
+
+/* slider */
+
+.slider{
+    position: relative;
+}
+
+.slider .slides{
+
+}
+
+.slider .slides .item img{
+    width: 100%;
+}
+
+.slider .slides .item{
+    display: none;
+}
+
+.slider .slides .active{
+    display: block;
+}
+
+.slider .slide-btns{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    z-index: 1;
+
+}
+
+.slider .slide-btns i{
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: .9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.slider .slide-btns i:hover{
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.7);
+    transition: font-size ease-in .2s;
+}
+
+.slider .slide-btns i:active{
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
