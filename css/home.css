@@ -184,7 +184,7 @@ header nav .nav-left .register-login-btn a{
 
 .supper-offer-section .supper-offer-box{
     text-align: center;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .3);
     border-radius: 5px;
     margin: 0px 10px;
 }
@@ -271,4 +271,21 @@ header nav .nav-left .register-login-btn a{
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
     width: 80%;
     height: 409.5px;
+}
+
+.dragable-list img{
+    width: 70% !important;
+    margin: auto;
+}
+
+.dragable-list .title{
+    padding: 0px 20px 15px 0px ;
+    text-align: center;
+}
+
+.dragable-list .title span{
+    font-size: 1.5em;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, .2);
+    padding: 10px 15px;
+    border-radius: 20px 0px 20px 0px;
 }
