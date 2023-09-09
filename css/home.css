@@ -285,7 +285,63 @@ header nav .nav-left .register-login-btn a{
 
 .dragable-list .title span{
     font-size: 1.5em;
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    border-bottom: 1px solid #333;
     padding: 10px 15px;
-    border-radius: 20px 0px 20px 0px;
+    color: #333;
+
+}
+
+/* footer */
+
+footer{
+
+}
+
+footer .row{
+    background-color: #444;
+}
+
+footer .right{
+    color: white;
+    padding: 60px 30px 40px 0px;
+}
+
+footer .right .title{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+footer .right .des{
+    font-size: 1.1em;
+    margin-left: 50px;
+}
+
+footer .left{
+padding-top: 60px;
+}
+
+footer .left .title{
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+}
+
+footer .left .socials{
+    text-align: center;
+}
+
+footer .left .socials a i{
+    color: white;
+    font-size: 1.5em;
+    margin: 5px 25px;
+}
+
+footer .bottom{
+    font-size: 1.2em;
+    color: white;
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0px;
 }
