@@ -85,6 +85,11 @@ header nav .nav-left .register-login-btn a{
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.6);
     margin: 10px 15px;
     border-radius: 5px;
+    transition: .5s;
+}
+
+.commodity:hover{
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.6);
 }
 
 .commodity .image-sec img{
@@ -96,20 +101,174 @@ header nav .nav-left .register-login-btn a{
 }
 
 .commodity .image-sec .offer{
-
+    background-color: #EA2027;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: .9em;
 }
 
 .commodity .image-sec .stars{
-
-}
-
-.commodity .image-sec .stars i{
-    
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FFC312;
 }
 
 .commodity .text-sec{
     color: black;
     margin: 15px;
-    text-align: start;
+    text-align: center;
+    text-overflow: ellipsis;
 }
 
+.commodity .btn-sec .right .price{
+    color: #444;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.commodity .btn-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.commodity .btn-sec .left{
+    display: flex;
+}
+
+.commodity .btn-sec .left .extend-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    background-color: #009432;
+    padding: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    transition: width .3s linear;
+}
+
+.commodity .btn-sec .left .extend-btn:hover{
+    width: 80.55px;
+    cursor: pointer;
+}
+
+.commodity .btn-sec .left .extend-btn:hover .btn-left-card{
+    display: block;   
+}
+
+.commodity .btn-sec .left .extend-btn i{
+    color: white;
+    left: 0px;
+}
+
+.commodity .btn-sec .left .extend-btn .btn-left-card{
+    color: white;
+    margin-left: 5px;
+    display: none ;
+}
+
+/* supper offer */
+
+.supper-offer-section{
+    padding: 20px;
+    font-size: 1em;
+}
+
+.supper-offer-section .supper-offer-box{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.supper-offer-box .supper-offer-box-title{
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.supper-offer-box .body{
+
+}
+
+.supper-offer-box .body .image-container{
+    text-align: center;
+    padding: 30px;
+}
+
+.supper-offer-box .body .image-container img{
+    width: 300px;
+}
+
+.supper-offer-box .body .spesification{
+    padding: 30px 5px;
+    align-self: center;
+    justify-self: center;
+}
+
+.supper-offer-box .body .spesification .price-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supper-offer-box .body .spesification .price-row .price{
+    margin-left: 60px;
+    color: #444;
+    font-size: 1.2em;
+}
+
+.supper-offer-box .body .spesification .price-row .off{
+    color: white;
+    background-color: #e74c3c;
+    padding: 5px 20px;
+    border-radius: 25px;
+
+}
+
+
+.supper-offer-box .body .spesification .title{
+    margin:40px 0px;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.4em;
+}
+
+.supper-offer-box .body .spesification .counter-down{
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    margin:10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5em;
+}
+
+.supper-offer-box .body .spesification .remaining-time{
+    color: #777;
+    font-size: 1.2em;
+}
+
+/* banner*/
+
+.banner{
+    text-align: center;
+    padding: 0px 5px;
+}
+.banner img{
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    width: 80%;
+    height: 409.5px;
+}
