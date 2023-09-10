@@ -1,0 +1,83 @@
+.login-page{
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background: radial-gradient(circle farthest-corner at 10% 20%, 
+    rgba(90, 92, 106, 1) 0%, rgba(32, 45, 58, 1) 81.3%);
+}
+
+.login-box{
+    font-size: .8em;
+    background-color: rgba(255, 255, 255, .1);
+    box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, .1);
+    padding: 25px 35px;
+    margin: 150px 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+.login-box .input-group{
+    margin: 30px 0px;
+}
+
+.login-box .input-group label{
+    font-size: 1.5em;
+}
+
+.login-box .input-group input{
+    display: block;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    background: none;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.login-box .signup-sug{
+    font-size: 1.5em;
+    margin: 10px 0px; 
+}
+
+.login-box .signup-sug a{
+    color: #eb4d4b;
+}
+
+.login-box .submit-btn{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.login-box .submit-btn input{
+    border: none;
+    padding: 10px 40px;
+    font-size: 1.5em;
+    background-color: #eb4d4b;
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.login-box .socials{
+    margin: 30px 25px 0px 25px;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+.login-box .socials a i{
+    color: white;
+    font-size: 1.9em;
+    margin: 20px 150px 0px 150px;
+}
+
+.login-image{
+    margin: 220px 0px 0px 0px;
+}
+
+.login-image img{
+    width: 100%;
+}
+
